@@ -137,7 +137,6 @@ section#main {
   -webkit-align-self: flex-start;
   align-self: flex-start;
   padding: 25px;
-  background-color: #fbdb65;
 }
 
 section#main > h1 {
@@ -171,12 +170,16 @@ section#items div.menuItem {
   flex: 1 0 160px;
   border: 1px solid black;
   margin: 10px;
+  background-color: #004f00;
+  color: #fff;
 }
 
 section#items div.menuItem h1 {
   text-align: center;
-  font-size: 1em;
+  font-size: 1.3em;
+
   letter-spacing: 0.1em;
+  padding: 0.8em;
 }
 
 section#items div.menuItem p {
@@ -399,7 +402,7 @@ form#orderForm fieldset label {
 
 form#orderForm input#buttonAdd {
   display: block;
-  color:#fff;
+  color: #fff;
   width: 120px;
   height: 35px;
   margin: 15px auto;
