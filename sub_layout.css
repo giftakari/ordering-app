@@ -1,20 +1,6 @@
 @charset "utf-8";
 
-/*
-   New Perspectives on HTML5, CSS3, and JavaScript 6th Edition
-   Tutorial 12
-   Case Problem 2
-
-   Subsistence Style Sheet
-
-   Filename:  sub_layout.css 
-
-*/
-
-/* HTML and Body Styles */
-
 html {
-  background: linear-gradient(to bottom, rgb(238, 218, 218), rgb(101, 88, 7));
   font-family: Verdana, Geneva, sans-serif;
   font-size: 12px;
 }
@@ -26,7 +12,6 @@ body {
   flex-flow: row wrap;
   -webkit-align-content: flex-start;
   align-content: flex-start;
-  background: rgb(241, 241, 231);
 
   margin: 0px auto;
   border: 3px solid rgb(221, 221, 221);
@@ -89,7 +74,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: white;
+  color: #fff;
   display: block;
   padding: 10px 20px;
   width: 100%;
@@ -166,8 +151,8 @@ section#items {
 }
 
 section#items div.menuItem {
-  -webkit-flex: 1 0 160px;
-  flex: 1 0 160px;
+  -webkit-flex: 1 0 20%;
+  flex: 1 0 20%px;
   border: 1px solid black;
   margin: 10px;
   background-color: #004f00;
@@ -409,4 +394,8 @@ form#orderForm input#buttonAdd {
   background-color: #004f00;
   font-size: 1.3em;
   border-radius: 20px;
+}
+
+.menuItem-green {
+  background-color: #fbdb65 !important;
 }
